@@ -92,8 +92,10 @@ async function main() {
             console.log('Users Successfully Retrieved from Canvas');
             let badUsers = checkSisIds(users);
             writeReports(badUsers);
-            console.log('Process Complete');
+        } else {
+            throw 'No Users To Check';
         }
+        console.log('Process Complete');
     } catch (err) {
         console.error(err);
     }
