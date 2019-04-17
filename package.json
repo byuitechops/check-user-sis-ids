@@ -1,0 +1,24 @@
+{
+  "name": "check-user-sis-ids",
+  "version": "1.0.0",
+  "description": "Generates a report about users' sis ids",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byuitechops/check-user-sis-ids.git"
+  },
+  "author": "Cal Wilson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/byuitechops/check-user-sis-ids/issues"
+  },
+  "homepage": "https://github.com/byuitechops/check-user-sis-ids#readme",
+  "dependencies": {
+    "async": "^2.6.2",
+    "canvas-api-wrapper": "^3.3.5",
+    "d3-dsv": "^1.1.1"
+  }
+}

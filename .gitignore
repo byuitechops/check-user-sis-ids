@@ -59,3 +59,7 @@ typings/
 
 # next.js build output
 .next
+
+#Ignore Reports
+reports/csv/*.csv
+reports/json/*.json
